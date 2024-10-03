@@ -4,7 +4,7 @@ package ACTIVITAT_1;
 public class Rot13 {
 
     public static String xifraRot13(String cadena) {
-        String minuscules = "abcdefghijklmnñopqrstuvwxyz";
+        String minuscules = "abcdefghijklmnñopqrstuvwxyzàáèéìòóí";
         String majuscules = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
         StringBuilder resultat = new StringBuilder();
 
